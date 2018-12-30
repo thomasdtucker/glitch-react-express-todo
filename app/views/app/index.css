@@ -1,0 +1,19 @@
+
+.App > header > h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.App > main > p{
+  max-width: 600px;
+}
+
+.App > main > p.bold {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}

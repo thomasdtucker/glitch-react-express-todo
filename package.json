@@ -1,0 +1,45 @@
+{
+  "name": "dream-machine",
+  "version": "0.0.1",
+  "description": "A place to store dreams via action patterns",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && babel-node server.js"
+  },
+  "devDependencies": {
+    "babel": "latest",
+    "babel-cli": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "style-loader": "latest",
+    "css-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.15.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "redux": "latest",
+    "redux-thunk": "latest",
+    "reselect": "^4.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/starter-react"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
